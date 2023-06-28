@@ -16,7 +16,7 @@ export const UsuarioProvider = ({ children }) => {
   }, []);
 
   const registrarUsuario = async (nuevoUsuario) => {
-    const urlServer = "http://18.116.49.213:3000";
+    const urlServer = "https://restaurante-4.vercel.app/";
     const endpoint = "/usuarios";
     // console.log(nuevoUsuario);
     try {
@@ -35,7 +35,7 @@ export const UsuarioProvider = ({ children }) => {
   };
 
   const iniciarSesion = async (credenciales) => {
-    const urlServer = "http://18.116.49.213:3000";
+    const urlServer = "https://restaurante-4.vercel.app/";
     const endpoint = "/usuarios/login";
     // console.log(credenciales);
     try {
@@ -63,7 +63,7 @@ export const UsuarioProvider = ({ children }) => {
 
   // Obtiene los datos del usuario desde el servidor y los almacena en el estado 'usuario'
   const getUsuarioData = async () => {
-    const urlServer = "http://18.116.49.213:3000";
+    const urlServer = "https://restaurante-4.vercel.app";
     const endpoint = "/usuarios";
     const token = localStorage.getItem("token");
 
@@ -96,7 +96,7 @@ export const UsuarioProvider = ({ children }) => {
 
   // Actualiza los datos del usuario en el servidor. Solo lo puede realizar el mismo usuario, porque requiere autenticación (su token guardado en el localStorage)
   const actualizarUsuario = async (usuarioActualizado) => {
-    const urlServer = "http://18.116.49.213:3000";
+    const urlServer = "https://restaurante-4.vercel.app/";
     const endpoint = "/usuarios";
     const token = localStorage.getItem("token");
 

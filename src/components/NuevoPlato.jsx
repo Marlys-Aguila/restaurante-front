@@ -68,7 +68,7 @@ export function NuevoPlato() {
         ingredientes,
       };
       // console.log(menu);
-      await axios.post("http://18.116.49.213:3000/menus", menu);
+      await axios.post("https://restaurante-4.vercel.app//menus", menu);
       alert(`Plato ${menu.nombre} creado con éxito`);
       restablecerValores();
     } catch (error) {

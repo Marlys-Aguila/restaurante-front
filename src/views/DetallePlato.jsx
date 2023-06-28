@@ -16,7 +16,7 @@ export function DetallePlato() {
   const [menu, setMenu] = useState(null);
 
   useEffect(() => {
-    fetch(`http://18.116.49.213:3000/menus/${id}`)
+    fetch(`https://restaurante-4.vercel.app/menus/${id}`)
       .then((response) => response.json())
       .then((data) => {
         setMenu(data);

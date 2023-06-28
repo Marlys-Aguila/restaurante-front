@@ -13,7 +13,7 @@ export function Menu() {
   const [menuData, setMenuData] = useState([]);
 
   useEffect(() => {
-    fetch("http://18.116.49.213:3000/menus")
+    fetch("https://restaurante-4.vercel.app/menus")
       .then((response) => response.json())
       .then((data) => setMenuData(data));
   }, []);
