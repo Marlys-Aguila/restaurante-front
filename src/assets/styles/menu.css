@@ -1,0 +1,40 @@
+body {
+  text-shadow: none;
+}
+
+#custom-color {
+  background-color: #7a19e0;
+  border: none;
+  max-width: 300px;
+  min-width: 200px;
+}
+
+#custom-color:hover {
+  background-color: #7919e0c0 !important;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

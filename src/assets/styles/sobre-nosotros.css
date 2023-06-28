@@ -1,0 +1,67 @@
+#submit-button,
+#boton-ubicacion,
+#boton-contacto {
+  background-color: #7a19e0;
+}
+
+#submit-button:hover,
+#boton-ubicacion:hover,
+#boton-contacto:hover {
+  background-color: #7919e0c0;
+}
+
+#mapImage {
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+#imgCol {
+  display: flex;
+  justify-content: center;
+}
+
+.scrollTop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: 0.5s;
+  background-color: #7a19e0;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scrollTop:hover {
+  transform: scale(1.05);
+  background-color: #7919e0c0;
+}
+
+#parrafo-1,
+#parrafo-2,
+#parrafo-3 {
+  text-align: justify;
+}
+
+#parrafo-1 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  #mapImage {
+    max-width: 90%;
+  }
+  #parrafo-1 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 760px) {
+  #contactForm {
+    max-width: 300px;
+  }
+}

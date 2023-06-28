@@ -1,0 +1,84 @@
+#custom-color-navbar {
+  background: linear-gradient(to bottom, #9f30ff 0%, #7a19e0 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#basic-navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-size: 1.1rem;
+}
+
+#basic-navbar-nav .menu-link {
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+
+#basic-navbar-nav .menu-link:hover {
+  color: #841fe8 !important;
+  background-color: #e2e2e2;
+}
+
+#pointer {
+  cursor: pointer;
+  font-family: "Great Vibes", cursive;
+  font-size: 1.7rem;
+  padding-bottom: 0;
+}
+
+.navbar-collapse {
+  justify-content: space-between;
+}
+
+.cart-notification {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+/* Animación */
+.nav-link-wrapper {
+  position: relative;
+}
+
+.cart-notification {
+  position: absolute;
+  top: -10px;
+  right: 35px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.cart-notification-enter {
+  opacity: 0.01;
+  transform: scale(0.9);
+}
+
+.cart-notification-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+}
+
+.cart-notification-exit {
+  opacity: 1;
+}
+
+.cart-notification-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in-out;
+}

@@ -1,0 +1,16 @@
+.registro-usuario-form {
+  width: 100%;
+  max-width: 900px;
+}
+
+#submit-button,
+#boton-ubicacion,
+#boton-contacto {
+  background-color: #7a19e0;
+}
+
+#submit-button:hover,
+#boton-ubicacion:hover,
+#boton-contacto:hover {
+  background-color: #7919e0c0;
+}

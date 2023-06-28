@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 393px) {
+  .mq-margin-top-bottom {
+    margin-top: 130px;
+    margin-bottom: 120px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 400px) {
+  .mq-margin-top-bottom {
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 401px) {
+  .mq-margin-top-bottom {
+    margin-top: 90px;
+    margin-bottom: 80px;
+  }
+}
+

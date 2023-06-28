@@ -1,0 +1,16 @@
+#submit-button {
+  background-color: #7a19e0;
+}
+
+#submit-button:hover {
+  background-color: #7919e0c0;
+}
+
+@media (min-width: 768px) {
+  #carrito-table {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+}
+
+

@@ -1,0 +1,9 @@
+#card-menu {
+  width: 100%;
+  text-align: center;
+  height: 620px;
+}
+
+#card-menu #descripcion-card-menu {
+  text-align: justify;
+}

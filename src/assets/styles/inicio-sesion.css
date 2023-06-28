@@ -1,0 +1,12 @@
+.inicio-sesion-form {
+  width: 100%;
+  max-width: 500px;
+}
+
+#submit-button {
+  background-color: #7a19e0;
+}
+
+#submit-button:hover {
+  background-color: #7919e0c0;
+}
