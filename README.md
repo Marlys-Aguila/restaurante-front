@@ -1,7 +1,10 @@
 # Proyecto Final: Restaurante _"Fogón de Memorias"_
 
 #### Ver deploy integrado con el backend en Netlify: 
-#### **https://restaurante-fogon-memorias.netlify.app/**
+##### **https://restaurante-fogon-memorias.netlify.app/**
+
+#### Ver repositorio backend del mismo proyecto:
+##### **https://github.com/Marlys-Aguila/restaurante-backend.git**
 
 ## Descripción
 
