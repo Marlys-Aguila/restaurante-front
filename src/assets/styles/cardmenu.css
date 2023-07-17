@@ -2,6 +2,19 @@
   width: 100%;
   text-align: center;
   height: 620px;
+
+  /* Animación tarjeta */
+  transition: transform 0.4s;
+  -webkit-transition: transform 0.4s;
+  -moz-transition: transform 0.4s;
+  -ms-transition: transform 0.4s;
+  -o-transition: transform 0.4s;
+}
+
+/*Animación de tarjeta*/
+#card-menu:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
 }
 
 #card-menu #descripcion-card-menu {
