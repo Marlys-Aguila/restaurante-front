@@ -38,7 +38,7 @@ export function FooterRestaurante() {
 
             <div>
               <a
-                href="https://www.linkedin.com/in/mvau/"
+                href="https://www.linkedin.com/in/marlysaguila/"
                 target="_blank"
                 rel="noreferrer"
               >
